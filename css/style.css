@@ -27,8 +27,12 @@
 
 @keyframes anim{
     0%{left:0px; top:0px; animation-timing-function: ease-in;}
-    25%{left:200px;top:500px; animation-timing-function: ease-out;}
-    50%{left: 400px; top:0px;animation-timing-function: ease-in;}
-    75%{left: 600px; top: 500px;animation-timing-function: ease-out;}
+    24%{transform: scale(1,1);}
+    25%{left:200px;top:500px; animation-timing-function: ease-out;transform: scale(1,0.8);}
+    26%{transform: scale(1,1);}
+    50%{left: 400px; top:20px;animation-timing-function: ease-in;}
+    74%{transform: scale(1,1);}
+    75%{left: 600px; top: 500px;animation-timing-function: ease-out;transform: scale(1,0.8)}
+    76%{transform: scale(1,1);}
     100%{left: 800px;top: 50px;animation-timing-function: ease-in;}
 }
